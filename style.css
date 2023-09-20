@@ -1,0 +1,157 @@
+/* ________________CARD__________________ */
+
+.card {
+  background-color: rgb(159, 205, 205);
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+  padding: 60px 20px;
+  z-index: 0;
+  border-radius: 20px;
+  grid-area: A;
+}
+
+.card_data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 400px;
+}
+
+img {
+  width: 350px;
+}
+
+h3 {
+  background-color: rgb(219, 100, 35);
+  color: white;
+  padding: 10px 30px 10px 38px;
+  width: 400px;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 40px;
+}
+
+.inp_card_data {
+  width: 100px;
+}
+
+.inp_card {
+  width: 365px;
+}
+
+.card_number {
+  width: 400px;
+}
+
+.name_on_card {
+  width: 400px;
+}
+
+.image {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(169, 210, 210);
+  border-bottom: 1px solid rgb(70, 108, 111);
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+p {
+  color: rgb(70, 108, 111);
+  font-weight: bold;
+}
+
+.empty {
+  color: rgb(159, 205, 205);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(128, 128, 128, 0.503);
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(219, 100, 35);
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* ___________APPERENCE CARD_____________ */
+
+.appearance_card {
+  grid-area: B;
+}
+
+.main {
+  display: grid;
+  grid-template-areas:
+    "A A A A   A A A A   B B B B"
+    "A A A A   A A A A   B B B B"
+    "A A A A   A A A A   B B B B";
+}
+
+.inp_color_card,
+.inp_color_top,
+.inp_color_top_text,
+.inp_color_text,
+.inp_color_field {
+  padding: 0px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-bottom: none;
+  vertical-align: middle;
+}
+
+.color_card,
+.color_top,
+.color_top_text,
+.color_text,
+.color_field {
+  vertical-align: middle;
+}
+
+.sign {
+  font-size: 15px;
+  color: #466c6f;
+}
+
+h4 {
+  font-size: 20px;
+  color: #db6423;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.span_option {
+  color: rgba(0, 0, 0, 0.975);
+  font-weight: lighter;
+}
+
+.card_option {
+  margin-bottom: 5px;
+}
+
+.but_card_option_1,
+.but_card_option_2,
+.but_card_option_3 {
+  margin-left: 5px;
+}
+
+.but_main {
+  margin-top: 20px;
+  margin-left: 50px;
+}
